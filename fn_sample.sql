@@ -3,3 +3,4 @@ as
 begin
 dbms_output.put_line('Test Sonar');
 end;
+/
