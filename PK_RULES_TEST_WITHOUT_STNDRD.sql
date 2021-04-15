@@ -1,6 +1,6 @@
 create or replace PACKAGE pk_rules_test_without_stndrd
 AS
-/******************************************************************************
+/********************************************************************************
    NAME:       PK_RULES_TEST_WITHOUT_STNDRD
    PURPOSE:   To validate Sonarqube Rule: BadRaiseApplicationErrorUsageCheck, FunctionLastStatementReturnCheck, VariableRedeclaration, ForallStatementShouldUseSaveExceptionsClause
 
