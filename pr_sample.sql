@@ -5,7 +5,6 @@ BEGIN
  SELECT SYSDATE INTO v_sysdate FROM dual;
 EXCEPTION
  WHEN NO_DATA_FOUND THEN
-  NULL;
-  RETURN;
+  pk_common_dmlerr_logging.pr_cndtnl_err_log(NULL, FALSE);
 END;
 /
