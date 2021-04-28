@@ -133,7 +133,6 @@ BEGIN
 				AND ST.STATUS_CID        =2
 				AND TRUNC(v_pa_srvc_frm_dt) BETWEEN PLXPLS.from_date AND PLXPLS.to_date    
 				ORDER BY
-				  /*Query Builder Clause*/
 				  UPPER("Status") DESC
 				)SRC
 			  ) t1 ,
