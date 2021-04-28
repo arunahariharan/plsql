@@ -135,7 +135,7 @@ BEGIN
 				AND TRUNC(v_pa_srvc_frm_dt) BETWEEN PLXPLS.from_date AND PLXPLS.to_date    
 				ORDER BY
 				  /*Query Builder Clause*/
-				  UPPER("Status") DESC
+				  UPPER(Status) DESC
 				)SRC
 			  ) t1 ,
 			  prvdr_lctn_x_address plxa,
